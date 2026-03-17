@@ -1,0 +1,155 @@
+python
+------------------
+   python is a programming language and scripting language as well.
+
+programming language
+ it is a independent tool used to create an entire application
+
+scripting language
+ it is a dependant language used to create small functionalities of the program. and it depnds on events like click, double click, page loading and so on
+
+
+it was develepd by guido van Rossum in 1993.
+
+features
+------------------
+
+1. less syntax
+2. simplified concepts
+3. oops support
+4. it is interpreter language so interactive
+5. cross platform support . different os can execute python
+6. active developers community
+7. open source 
+
+
+
+c-language
+---------------------
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ printf("anbuG");
+
+}
+
+
+c++ language
+------------------
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ cout<<"jeeva";
+}
+
+
+core java
+
+import java.io.*;
+
+class sample1
+{
+
+  public static void main(String []args)
+   {
+      System.out.println("Jeeva");
+   }
+
+
+}
+
+
+c#.net language - 
+--------------------------
+
+using System;
+
+namespace consoleapp
+{
+
+  class sample1
+  {
+     public static void main(String []args)
+      {
+
+       Console.WriteLine("jeeva");
+
+
+      }
+
+   }
+
+
+}
+
+
+core python
+------------------
+
+
+print("Jeeva")
+
+
+
+
+
+
+while
+do while - does not exist
+for  - does not exist
+
+ python - for ->foreach
+
+ for(int a:numbers) java's for each loop
+  {
+
+  }
+
+ foreach(int a in numbers) - c# for each loop
+  {
+
+  }
+
+  for n in numbers:     python for each loop
+ 		.....
+
+
+function syntax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

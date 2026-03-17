@@ -1,0 +1,67 @@
+print(' hello ')
+
+print(" hello ")
+
+
+a=100
+print(" value is ", a) 
+value is a
+
+
+a=100
+name="arjun"
+print(" a = ", a, "  name = ", name)
+
+a = 100   name = arjun
+
+
+
+a = input(" enter ur name ")
+print( a )
+
+aravind
+
+
+number = int( input("enter a number") ) type casting
+
+average = float( input("enter the average mark ") )
+
+
+a=10
+b=3
+
+a/b = 3.33
+
+a//b = 3
+
+a%b = 1
+
+
+ex1
+--------
+ get regno, name, degree, city from user . print it on the screen
+
+
+
+ex2
+---------
+ get amount in hand, unit price and display no of products can be buy
+
+
+ex3
+ get three subjects marks and print the average
+
+ex4
+--------
+scen 1:
+  100 kgs of tomato is 1000 rs
+  12.5 kgs of tomato is ?
+
+
+when 100kgs of tomato is received, price per kg is 40rs
+and when 50 kgs of tomato is received is ,price per kg is 80 rs
+if 84 kgs of tomato is received what is the price per kg?
+
+
+
+

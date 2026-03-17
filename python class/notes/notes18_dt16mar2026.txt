@@ -1,0 +1,210 @@
+
+module
+  it is collection in built in data, functions, classes
+
+mymodule1.py
+---------------------
+
+
+elements = [10, 20,30,40,50]
+
+def addition(a, b):
+    print(' addition result is ', (a+b) )
+
+
+class student:
+    def displaydetails(self):
+        print(' dummy code to print details ')
+
+
+
+sample1.py
+-----------------
+
+
+import mymodule1
+
+
+print( mymodule1.elements )
+
+
+mymodule1.addition(100,200)
+
+s1=mymodule1.student()
+s1.displaydetails()
+
+
+sample  [ using alias symbol ]
+-------------
+
+import mymodule1 as mm
+
+
+print( mm.elements )
+
+
+mm.addition(100,200)
+
+s1=mm.student()
+s1.displaydetails()
+
+
+
+sample  [ importing specific contents from module ]
+---------------
+
+from mymodule1 import addition, student
+
+
+#print( elements )
+
+
+addition(100,200)
+
+s1=student()
+s1.displaydetails()
+
+
+sample  [ importing all the contents from module ]
+--------------
+
+from mymodule1 import *
+
+
+print( elements )
+
+
+addition(100,200)
+
+s1=student()
+s1.displaydetails()
+
+
+types of errors
+-----------------------
+1. compile time error or syntax error
+    happens at compile time 
+ example : brackets missing
+
+2. logical error
+   mistakes in the logics
+   example : '+' symbol in division program
+
+3. runtime error
+   happens at runtime 
+example:divide by zero
+
+sample
+------------
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+except:
+    print(' do not divide by zero ')
+
+print('thank u')
+
+sample - finally
+---------------
+
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+except:
+    print(' do not divide by zero ')
+finally:
+    print(' this is finally block ')
+
+print('thank u')
+
+
+sample
+-----------
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+
+    print( z )
+except ZeroDivisionError:
+    print(' do not divide by zero ')
+except NameError:
+    print(' variable is not declared ' )
+finally:
+    print(' this is finally block ')
+
+print('thank u')
+
+
+
+
+sample
+---------------
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+
+    print( z )
+except ZeroDivisionError:
+    print(' do not divide by zero ')
+except Exception: #generic exception
+    print(' unknown exception ')
+finally:
+    print(' this is finally block ')
+
+print('thank u')
+
+
+sample
+----------------
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+
+    print( z )
+except Exception: #generic exception
+    print(' unknown exception ')
+finally:
+    print(' this is finally block ')
+
+print('thank u')
+
+
+sample
+------------
+
+a = int( input("enter a number"))
+b = int( input("enter another number"))
+
+try:
+    c=a/b
+    print(' division result is ', c )
+
+    print( z )
+except Exception as ex:
+    print(ex)
+finally:
+    print(' this is finally block ')
+
+print('thank u')
+
+

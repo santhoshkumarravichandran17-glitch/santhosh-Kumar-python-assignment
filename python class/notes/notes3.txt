@@ -1,0 +1,193 @@
+100 kgs rs 40 = 4000rs
+50kgs   rs80  = 4000rs
+1kg = rs4000
+
+84kgs * x = 4000
+        x = 4000 / 84 = 46.71rs
+
+
+1  1  2  3  3  5  4  7  5  9.....< 50 
+
+1  3  5  7  9  11  13  15 17  19
+
+1 2 3 4 5 6 7 8 
+
+1 1 2 3 3 5
+
+1  2  3  5  7  11  13  17...x, y, z   19  23  29
+
+1 4 9 16 .., .. , .. 25 36 49....
+
+0 1 1 2 3 5 8 ..., ... ,... 13, 21, 34..fibonacci series
+
+
+
+buy price 200 rs
+
+sell..price 125 rs
+
+loss in percentage
+
+
+
+200rs = 100%
+
+200 * 1rs = 100 %
+
+1rs = (100/200 ) %
+   1rs = 0.5%
+
+loss = 200-125
+     = 75 rs
+     = 75 * 1rs 
+     = 75 * 0.5%
+     = 75 * (1/2)
+     = 75/2 = 37.5%
+
+
+buying price 200rs
+32% loss 
+sold price = ?
+
+
+1 % = 2 rs
+32 % = 32 % 2 = 64
+     = 200 - 64
+     = 136
+
+
+
+buy price 200 rs
+
+sell..price 125 rs
+
+loss in percentage
+
+
+
+200rs=100%
+
+1rs=1/2 %
+
+sold price = 125
+
+loss = buying price - sold price
+     = 200 - 125
+     = 75
+
+     = 75 *( 1/2 ) percentage
+
+
+sample
+------------
+
+
+buyingprice = int( input("enter buying price ") )
+soldprice = int( input("enter sold price") )
+
+#200rs=100%
+#200 * 1rs = 100%
+
+
+#1rs=(100/200) %
+
+one_rupees = (100/buyingprice)
+
+loss = buyingprice - soldprice
+
+result_in_percentage= loss * (one_rupees)
+
+print(" result is percentage ", result_in_percentage)
+
+
+
+--------------------------------------
+
+
+125 products = 2500 rs
+100 products = ?
+write a code for it
+
+
+'''
+
+125 products = 2500 rs
+
+125 * 1 product = 2500 rs
+
+1 product = 2500 / 125
+
+1 product = 20 rs
+
+100 products = ?
+
+100 * 1 product
+
+100 * 20 rs = 2000 rs
+
+
+'''
+
+
+noofproducts = int( input("enter no of total products "))
+totalprice = int( input("enter total price"))
+
+
+one_product = totalprice / noofproducts
+
+quantity = int( input("enter quantity")) # 100 products
+
+result = quantity * one_product
+
+print(" total amount " , result )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

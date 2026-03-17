@@ -1,0 +1,209 @@
+collections
+--------------------
+1. follows dynamic memory allocation or not
+2. different datatypes are allowed or not
+3. duplicates values are allowed or not
+4. index is supported or not
+5. ordered collection or unordered collection
+6. mutable or immutable
+7. slicing can be support or not
+
+dynamic memory allocation
+----------------------------------
+  process of allocating or deallocating the memory whenever it is required or not required
+
+ordered collection : elements will be stored as in the given order
+
+input = 10, 20, 30
+list1 = 10, 20,30 - ordered collection
+
+input = 10,20,30
+list2 =  20, 10,30 - unordered collection
+
+mutable
+-------------
+  collection can change its values or its structure
+
+list1[0] = 100
+changed list1[0] = 123 - working -> mutable
+
+list1.append(123)  - list adds the additional value -> mutable
+
+
+
+
+
+list
+------------
+ it is used to store multiple elements referred by common name
+
+
+
+sample
+---------------
+#list follows dynamic memory allocation
+
+sample
+---------------
+elements=[10,20,30,40,50]
+
+print( ' before ', elements )
+elements.append(60)
+print(' after ', elements ) #10,20,30,40,50,60
+
+
+elements.insert(1, 15) # 10, 15, 20, 30, 40,50,60
+print(' after insert ', elements )
+
+
+elements.remove(60)
+print(' after removing 60 ', elements )
+
+
+result = elements.pop(1) # 15
+print(' after pop ', elements , ' popped element is ', result )
+
+
+#list datatype
+
+elements = [ 10, 20,30,40,50 ]
+
+#printing all elements together
+print( ' elements ' , elements )
+
+
+#printing elements one by one using for loop
+for elmnt in elements:
+    print( ' for ', elmnt )
+
+
+#printing elements one by one using while loop
+count = 0
+
+while count<5:
+    print( ' while ', elements[count] )
+    count+=1
+
+    
+
+
+# different datatypes are allowed
+elements = [ 10, 20,30, 'arjun', 10.5, True ]
+print( ' elements ' , elements )
+
+
+
+
+# duplicates  are allowed
+elements = [ 10, 20,30, 'arjun', 10.5, 10,20,30 ]
+print( ' elements ' , elements )
+
+
+#index is supported
+elements = [ 10, 20,30, 'arjun', 10.5, 10,20,30 ]
+result = elements[0] + elements[5]
+print( result )
+
+
+# ordered collection
+elements=[10,20,30,40,50]
+print( elements )
+
+
+# list is mutable
+elements=[10,20,30,40,50]
+print( elements )
+elements[0]=100
+print( elements )
+
+#negative index can also be supported
+elements = [10,20,30,40,50]
+
+print( '  elements[-1]  ', elements[-1] )
+print( '  elements[-5]  ', elements[-5] )
+
+
+slicing
+----------------
+process of taking set of values from the list
+
+sample
+-------------
+
+elements = [ 10,20,30,40,50,60, 70,80,90 ]
+
+print( ' elements[0:4] ', elements[0:4]) # 0, 1, 2, 3 = 10, 20,30,40
+
+print( ' elements[0:8:2] ', elements[0:8:2])# 0,2, 4, 6, =10,30, 50, 70
+
+print( ' elements[2:8:2] ', elements[2:8:2])# 2, 4, 6, =30, 50, 70
+
+# 90, 80,....10 = 8, 7, 6, 5, 4, 3, 2, 1, 0
+
+print(  'elements[8:  :-1]', elements[8:  :-1] ) #reverse
+
+print( ' elements[-9:] ', elements[-9:] )
+
+print( ' elements[-9:-2:2] ', elements[-9:-2:2] ) #-9,-7,-5,-3,=10,30,50, 70
+
+elements=[10, 30,40,12,25]
+print( elements )
+
+count = len(elements)
+print(' no of elements ', count )
+
+
+LIST characteristics
+---------------------------
+1. follows dynamic memory allocation or not - yes
+2. different datatypes are allowed or not - yes
+3. duplicates values are allowed or not - yes
+4. index is supported or not - yes
+5. ordered collection or unordered collection - ordered collection
+6. mutable or immutable - mutable
+7. slicing can be support or not - yes
+8. sorting is supported or not  - no
+
+
+TUPLE
+----------------
+ it is also used to store multiple values. but it is immutable and does not follow dynamic memory allocation
+
+
+
+#tuple
+elements = ( 10,20,30,40,50 )
+
+print( elements )
+
+
+for elmnt in elements:
+    print(' for ', elmnt )
+
+count = 0
+while count<len(elements):
+    print( ' while ', elements[count] )
+    count+=1
+
+
+tuple
+------------------
+elements = ( 10,20,30,40,50 )
+
+#elements.append(60) #error
+#elements.insert(1,15) #error
+#elements.add(60) #error
+
+print( elements )
+elements[0]=100 #error
+print( elements )
+
+
+
+Assignment
+  analyze and create samples for tuple characteristics
+
+
+
+
+

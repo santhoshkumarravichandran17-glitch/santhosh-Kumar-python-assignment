@@ -1,0 +1,224 @@
+
+
+print("one")
+
+print('one')
+print('one')
+print('one')
+print('one')
+print('one')
+
+
+
+
+
+
+count=1
+
+if ( count<=10 )
+{
+
+  print(" one ")    ... one, one, one ....one
+  count +=1         ... 2, 3, 4...10, 11-> condition is false
+
+}
+
+
+
+looping statement
+---------------------------
+  it is used to execute set of statements repetitively
+
+
+1. while loop
+2. for ( foreach loop)
+
+
+while condition:
+	statements
+
+for var in collections:
+	statements
+
+
+sample
+------------
+count = 1
+
+while count<= 10:    
+    print("welcome ", count)
+    count+=1
+
+
+
+
+count = 10
+
+while count >=1 :
+    print( "welcome ", count )
+    count-=1
+
+
+break
+--------------
+ it is an unconditional statement. used to terminate the current execution and used to coming out of the current loop
+
+sample
+--------------
+while count <=10:
+    if( count == 5):
+        break
+    print(" welcome ", count) 
+    count+=1
+
+
+continue
+ it is also an unconditional statement used to move the execution for its next step of the looping statement.
+
+sample
+----------------
+count = 1
+
+while count <=10:
+    if( count == 5):
+        count+=1
+        continue
+    print(" welcome ", count) 
+    count+=1
+   
+1  2....[3]....[7]...10
+
+note: python's output statement print is having "\n" as delimiter character. if you want to change the delimiter character, use the keyword "end" as shown below.
+
+sample
+--------------
+
+print(" one ", end="" )
+print(" two ", end="")
+
+note: default delimiter character is \n
+
+--------------------------------------------------------
+
+
+1
+1 2
+1 2 3
+
+
+'''
+1
+1  2
+1  2  3
+
+'''
+
+
+i = 1
+
+while i<=3:
+
+    j=1
+
+    while j<=3:
+        print(" * ", end="")
+        j+=1
+
+    print("\n")
+    
+    i+=1
+
+
+'''
+
+1
+1  2
+1  2  3
+
+
+*  
+*  * 
+*  *  *
+
+
+'''
+
+
+i = 1
+
+while i<=3:
+
+    j=1
+
+    while j<=i:
+        print(j," ", end="")
+        j+=1
+
+    print("\n")
+    
+    i+=1
+
+
+
+1
+2  2
+3  3   3
+   ---------
+
+
+* * *
+* *
+* 
+
+i = 3
+
+while i>=1:
+    
+    j=1
+    
+    while j<=i:
+        print("*", end="")
+        j+=1
+        
+    print()
+    i-=1
+
+'''
+
+range() - returns set of values
+
+range(start, end, interval)
+
+range(5) = 0, 1, 2, 3, 4.  start = 0, end = n - 1
+
+range(1,4) = 1, 2, 3
+
+range(3, 12, 3 ) = 3, 6, 9, 
+
+'''
+
+
+for i in range(5):
+    print( i , end="  ")
+
+
+
+print()
+
+
+for i in range(1, 4):
+    print( i , end="  ")
+
+
+print()
+
+for i in range(3,12,3):
+    print( i , end="  ")
+
+
+word = "one"
+
+for letter in word:
+    print( letter )
+
+

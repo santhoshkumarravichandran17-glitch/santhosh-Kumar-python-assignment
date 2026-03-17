@@ -1,0 +1,134 @@
+python day1 
+
+exercise 1:
+
+ex1
+--------
+ get regno, name, degree, city from user . print it on the screen
+
+Answer:
+
+regno = int(input("enter regno"))
+name = input ("enter name")
+degree = input("enter degree")
+city = input ("enter city")
+
+print("regno" , regno)
+print ("name" , name)
+print ("degree" , degree)
+print ("city" , city)
+
+
+ex2
+---------
+ get amount in hand, unit price and display no of products can be buy
+
+Answer:
+amount = int(input("Enter amount: "))
+price = int(input("Enter unit price: "))
+
+products = amount // price
+
+print("You can buy", products, "products")
+
+
+ex3
+ get three subjects marks and print the average
+
+Answer:
+
+mark1 = int(input("Enter mark 1: "))
+mark2 = int(input("Enter mark 2: "))
+mark3 = int(input("Enter mark 3: "))
+
+average = ((mark1 + mark2 + mark3) / 3)
+
+print("Average mark is:", average)
+
+ example (80+90+100) / 3
+average mark is : 90
+
+
+exercise 4:
+
+ex4
+--------
+scen 1:
+  100 kgs of tomato is 1000 rs
+  12.5 kgs of tomato is ?
+
+Answer:
+
+total_kg = 100
+total_price = 1000
+needed_kg = 12.5
+1000 ÷ 100 = 10 Rs per kg
+12.5 × 10 = 125 Rs
+
+price_per_kg = total_price / total_kg
+cost = needed_kg * price_per_kg
+
+print("Cost is:", cost)
+
+Cost is: 125
+
+
+
+when 100kgs of tomato is received, price per kg is 40rs
+and when 50 kgs of tomato is received is ,price per kg is 80 rs
+if84 kgs of tomato is received what is the price per kg?
+
+
+
+
+
+Day 2 class
+
+question no 1: 1 1 2 3 3 5 4 7 5 9 ....<50
+answer: 6,11,7,13
+
+question no 2:  1 2 3 5 7 11 13 17...
+answer: 19, 23,29 
+
+question no 3:
+
+buying price = 200
+sold price = 125
+find percentage the loss ?
+
+answer:
+buyingprice = int( input("enter buying price ") )
+soldprice = int( input("enter sold price") )
+
+#200rs=100%
+#1rs=(100/200) %
+
+one_rupees = (100/buyingprice)
+
+loss = buyingprice - soldprice
+
+result_in_percentage= loss * (one_rupees)
+
+print(" result is percentage ", result_in_percentage)
+
+
+
+question no 4:
+125 products = 2500rs
+100 products = ?
+write a code?
+
+answers:
+
+ buying products = int(input("enter the products"))
+
+
+
+
+
+
+
+
+
+
+

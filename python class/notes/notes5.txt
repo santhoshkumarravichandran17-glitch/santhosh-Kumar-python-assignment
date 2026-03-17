@@ -1,0 +1,155 @@
+operators
+-------------------
+
+1. arithmetic 
++, -, *, /, %, //, **
+
+2. assignment
+=
+
+3. relational or comparison  operators
+>, <, >=, <=, ==,!=
+
+4. logical
+and, or, not
+
+
+5. arithmetic assignment
++=, -=, *=, /=, %=
+
+6. membership
+in, not in
+
+
+arithmetic
+
+a = 10
+b = 3
+
+c=a+b
+print(' + ', c) #13
+
+d=a*b
+print(' * ', d) #30
+
+
+e=a**b        #10 power of 3 = 1000
+print(' ** ', e)
+
+
+f=a/b         #10/3 = 3.333
+print(' / ', f)
+
+g=a//b     #10//3 = 3
+print(' // ', g)
+
+
+h=a%b     # 10 % 3 = 1
+print(' % ', h)
+
+
+if condition:
+	statements
+else:
+	statements
+
+
+
+sample
+-------------
+a= int( input("enter a number") )
+b= int( input("enter another number"))
+
+
+if a>=b:
+    print("a is greater than b or  a and b may be same")
+else:
+    print(" b is greater than a")
+
+
+-------------------------------------------------------
+a>=1     a<=100
+
+a= int( input("enter a number") )
+
+if a>=1  and   a<=100:
+    print(" number lies between 1 to 100")
+else:
+    print(" number does not lies between 1 to 100")
+
+
+arithmetic assignment
+
++=
+
+a+=b
+a=a+b
+
+a-=b
+a=a-b
+
+a*=b
+a=a*b
+
+a/=b
+a=a/b
+
+a%=b
+a=a%b
+
+
+
+
+a=10
+b=5
+
+a+=b # a=a+b
+
+print(" a = ", a ) # a = 15
+print(" b = ", b ) # b = 5
+
+
+
+word="welcome"
+
+letter =input("enter a letter")
+
+
+if letter not in word:
+    print(" exist ")
+else:
+    print(" not exist ")
+
+
+
+
+booklist ="tamil English maths"
+
+book = ..... maths
+
+book is already exist
+
+book = science
+
+book is not exist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

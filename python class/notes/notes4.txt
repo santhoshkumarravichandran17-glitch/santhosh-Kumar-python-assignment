@@ -1,0 +1,168 @@
+python
+-----------------
+   it is  programming language
+
+program
+---------------
+  set of instructions
+
+python features
+----------------------
+1. less syntax
+2. simplified concepts
+3. oops support
+4. open source
+5. interpreter support , so interactive
+6. cross platform - different operating systems can support
+
+
+python datatypes
+int
+float
+string
+Boolean
+
+i/o statement
+----------------------
+input()
+print()
+
+
+programming syntax
+------------------------
+
+statement1
+statement2
+....
+statement
+
+
+
+datatype
+-----------------
+ it defines the type of data to be stored in the memory
+
+  10 10.5 'z', True, "arjun", "pass@123"
+
+int - 10
+float - 10.5
+string - 'z', "arjun", "pass@123"
+Boolean - True, False
+
+
+
+input and output functions
+--------------------------------
+
+
+input
+
+variable = input("message")
+
+ex1
+--------
+
+name = input("enter ur name")
+
+
+ex2
+-----
+
+age = int( input("enter ur age") )
+
+
+ex3
+-----
+
+average = float( input("enter ur average") )
+
+
+
+o/p statement
+-----------------------
+
+
+print(" messages ", variable )
+
+
+ex1
+----------
+
+print(" welcome to python ")
+or
+print('welcome to python')
+
+
+ex2
+----------
+age = 25
+print(" the given age is ", age)
+
+
+ex3
+-----
+name="arjun"
+average=56.4
+print(" given data1 ", name , ' given data2 ', average)
+
+
+
+installtions and running
+--------------------------------
+
+1. search python latest download file horse . [ file horse free website for free softwares . preferrable version python 11]
+
+
+2. once downloaded , right click on the software, run as administrator for installation  [ click 'continue' if prompt is coming ]
+
+3. search 'idle' [integrated development learning environment ]
+
+
+idle  - learning
+PyCharm - enterprise level project
+pyscriptor - like vs code lightweight
+spyder - windows - tkinter
+vs code - framework, multiple technologies
+visual studio - 
+netbeans - 
+jupyter notebook - data science
+
+4. open it in admin mode [ right click on it then run as administrator]
+
+
+5. click file-new - write the code and save it 'sample1.py'
+
+a=100
+b=200
+c=a+b
+print(' result is ', c)
+
+
+6. click run - run module or F% key
+
+7. verify the result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
